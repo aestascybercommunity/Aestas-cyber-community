@@ -133,6 +133,35 @@ vertical-align: bottom;
     opacity: .7;
   }
 
+
+  .download_buttons input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    background-color: initial;
+    background-image: linear-gradient(#1df6c0 0, #4df4ca 100%);
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+    color: #111;
+    cursor: pointer;
+    display: inline-block;
+    font-family:monospace;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 800;
+    outline: 0;
+    text-align: center;
+    transition: all .3s cubic-bezier(.05, .03, .35, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: bottom;
+    }
+    .download_buttons input:hover {
+        opacity: .7;
+      }
 .contact_con {
     position: relative; top:70px;
     font-family: Arial, Helvetica, sans-serif;
